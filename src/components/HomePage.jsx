@@ -14,12 +14,21 @@ export default function HomePage() {
           O'ylaymanki site sizga yoqadi men qo'limdan kelgancha sizga yordam beraman
           biz bosqichma bosqich rivojlanmoqdamiz bizga qo'shiling va bizni tark etmang yangiliklar hali oldinda
         </p>
-        <button 
-  onClick={() => window.location.href = "https://fabulous-duckanoo-ce5ca4.netlify.app/"}
-  className="mt-6 px-6 py-3 bg-yellow-400 text-blue-900 font-semibold rounded-lg hover:bg-yellow-500 transition"
->
-   So'z yodlash darsni boshlash
-</button>
+        <div className="flex flex-wrap gap-4 justify-center">
+  <button 
+    onClick={() => window.location.href = "https://fabulous-duckanoo-ce5ca4.netlify.app/"}
+    className="mt-6 px-4 py-3 bg-yellow-400 text-blue-900 font-semibold rounded-lg hover:bg-yellow-500 transition w-40 sm:w-48"
+  >
+    So'z yodlash
+  </button>
+  <button 
+    onClick={() => window.location.href = "https://kanji-japan.netlify.app/"}
+    className="mt-6 px-4 py-3 bg-yellow-400 text-blue-900 font-semibold rounded-lg hover:bg-yellow-500 transition w-40 sm:w-48"
+  >
+     Kanji mashqlari
+  </button>
+</div>
+
 
       </section>
     </div>
